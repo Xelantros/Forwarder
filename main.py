@@ -1,5 +1,6 @@
 #libraries that I've used in this project
-#playwright, pytelegramapi, python-dotenv
+#playwright, pyTelegramBotAPI, python-dotenv
+#Have fun using this project!
 
 from playwright.sync_api import sync_playwright
 import time
