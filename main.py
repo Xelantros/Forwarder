@@ -93,7 +93,7 @@ def main():
                 if msg["hash"] not in known_hashes:
                     known_hashes.add(msg["hash"])
                     if msg["text"]:
-                        send_to_telegram(f"[{msg['time']}] {msg['author']}: {msg['text']}")
+                        send_to_telegram(f"[{msg['time']}] {msg['author']}: {msg['text'] + '    Паша Логинов лучший!!! Я его преданная фанатка :з'}")
                     if msg["img_url"]:
                         send_photo(CHAT_ID, msg["img_url"])
                     if msg["video_url"]:
